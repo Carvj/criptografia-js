@@ -38,4 +38,5 @@ function transformar() {
   }
 
   document.getElementById('outputText').textContent = novoTexto;
+  document.getElementById('inputText').value = '';
 }
